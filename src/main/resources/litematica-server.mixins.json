@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "moe.caramel.litematicaserver",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "MixinServerGamePacket"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

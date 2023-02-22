@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "litematica-server",
+  "version": "${version}",
+
+  "name": "litematica-server",
+  "description": "litematica server mod",
+  "authors": [ "LemonCaramel" ],
+
+  "license": "MIT",
+  "environment": "server",
+
+  "mixins": [
+    "litematica-server.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "minecraft": "1.19.3"
+  }
+}
